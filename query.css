@@ -200,7 +200,7 @@
     }
 
     main{
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-rows: 270vh auto auto auto auto;
     }
 
     section > div > h2 {
