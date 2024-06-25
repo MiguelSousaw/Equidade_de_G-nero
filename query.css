@@ -246,11 +246,11 @@
         display: flex;
         flex-wrap: wrap;
         height: auto;
-        width: 80%;
+        width: 100%;
     }
     
     #section3 > article > div {
-        width: 80%;
+        width: 100%;
     }
 
     #concretos, #dados {
