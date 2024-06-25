@@ -190,13 +190,13 @@
     }
 
     header > h1 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     header > nav > a {
-        font-size: 0.7em;
+        font-size: 0.5em;
         margin-right: 0;
-        padding: 2px;
+        padding: 1px;
     }
 
     main{
@@ -223,6 +223,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         padding: 30px;
+        gap: 30px;
     }
 
     #section1 > #texto{
@@ -242,9 +243,14 @@
         justify-content: center;
         align-items: center;
         margin: 0;
-
         display: flex;
         flex-wrap: wrap;
+        height: auto;
+        width: 80%;
+    }
+    
+    #section3 > article > div {
+        width: 80%;
     }
 
     #concretos, #dados {
